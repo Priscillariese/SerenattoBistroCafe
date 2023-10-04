@@ -1,10 +1,10 @@
-# Serenatto Cafe & Bistro - Landscaping Page
+# Serenatto Cafe & Bistro - Landing Page
 
 Welcome to Serenatto Cafe & Bistro - Landscaping Page! This project is a web page created using Figma, Bootstrap, HTML, CSS, and JavaScript. Additionally, it features support for the dark mode.
 
 ## Overview
 
-Serenatto Cafe & Bistro is a landscaping page that combines functionality and design to showcase information about an imaginary cafe and bistro, with a focus on the surrounding landscape. With a modern and elegant design, this page is perfect for promoting a cozy and inviting atmosphere.
+Serenatto Cafe & Bistro is a landing page that combines functionality and design to showcase information about an imaginary cafe and bistro, with a focus on the surrounding landscape. With a modern and elegant design, this page is perfect for promoting a cozy and inviting atmosphere.
 
 
 ## Technologies Used
