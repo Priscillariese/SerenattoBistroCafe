@@ -2,32 +2,95 @@ body {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
-  font-family: 'Barlow', sans-serif;
-  height: 4000px;
+}
+
+.marrom-claro {
+  background-color: var(--marrom-escuro);
+}
+
+.marrom-escuro {
+  background-color: var(--marrom-escuro);
+}
+
+section.module.parallax-1{
+    background-image: url(./assets/banner-1.png);
+}
+
+section.module.parallax-2{
+    background-image: url(./assets/banner-2.png);
+}
+
+section.module.parallax-3{
+    background-image: url(./assets/banner-3.png);
+}
+
+.titulos-offcanvas {
+  background-color: var(--bege);
+}
+
+.titulos-offcanvas:not(.collapsed) {
+  background-color: var(--bege);
 }
 
 input[type=checkbox] {
-  border: 2px solid var(--marrom-claro);
-  box-shadow: none;
+    border: 2px solid var(--marrom-claro);
+    box-shadow: none;
 }
 
-input[type=checkbox]:checked,
+input[type=checkbox]:checked {
+    background-color: var(--marrom-claro);
+    border-color: var(--marrom-claro);
+    box-shadow: none;
+}
+
 input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: none;
   background-color: var(--marrom-claro);
   border-color: var(--marrom-claro);
-  box-shadow: none;
-  outline: none;
 }
 
-.banner-1 {
-  background-image: url(./assets/banner-1.png) ;
+input[type="range"]::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
 }
 
-.banners {
-width: 100%;
-height:100vh;
-background-repeat:no-repeat;
-background-size:cover;
-background-position: center;
-background-attachment: fixed;
+input[type="range"]::-moz-range-thumb {
+  background-color: var(--marrom-claro);
+}
+
+input[type="range"]::-ms-thumb {
+  background-color: var(--marrom-claro);
+}
+
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    --bs-bg-opacity: .9;
+    background-attachment: fixed;
+  }
+
+.teste {
+    --bs-bg-opacity: .2;
+}
+
+.botao-dark, footer, .botao-modal {
+  background-color: var(--marrom-claro);
+}
+
+.botao-dark:hover {
+  background-color: var(--marrom-escuro);
+}
+
+[data-bs-theme="dark"] {
+  color: white !important;
 }
